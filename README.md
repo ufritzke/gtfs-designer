@@ -1,6 +1,6 @@
 # gtfs-designer
 
-GTFS Designer is an open-source project based on crowdsourcing to facilitate the creation, import and export of a file in the standard General Ttransit Feed Specification.
+GTFS Designer is an open-source project based on crowdsourcing to facilitate the creation, import and export of a file in the standard General Transit Feed Specification.
 
 ## This project use
 
