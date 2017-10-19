@@ -1,0 +1,100 @@
+#nav-logo {
+	height: 60px;
+	margin-top: 2px;
+}
+
+nav li {
+	font-weight: bold;
+}
+
+.nav-icon {
+	display: inline-block !important;
+	font-size: 14px !important;
+}
+
+#sidenav-overlay {
+	z-index: 995;
+}
+
+#map {
+	width: 100%;
+	height: 430px;
+}
+
+.leaflet-top, .leaflet-bottom, .leaflet-left{
+	z-index: 550;
+}
+
+.leaflet-pelias-input, .leaflet-pelias-input:focus{
+	border: none !important;
+	box-shadow: none !important;
+  box-sizing: border-box !important;
+}
+
+.leaflet-pelias-input {
+	padding: 0 0 0 28px !important;
+}
+
+.leaflet-pelias-input:focus {
+	padding: 5px 30px 5px 28px !important;
+}
+
+#intro i{
+	font-size: 7rem;
+	margin: 20px 0;
+}
+
+#intro .intro-title {
+	margin-top: 0;
+	font-size: 1.7rem;
+  font-weight: 500;
+}
+
+#intro .intro-text {
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.float-panel {
+	max-width: 450px;
+}
+
+.float-panel h4{
+	font-size: 28px;
+}
+
+.float-panel a{
+	font-size: 16px;
+}
+
+.input-field input[type=date]:focus + label,
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label {
+  color: #01579b;
+}
+
+.input-field input[type=date]:focus,
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus {
+  border-bottom: 2px solid #01579b;
+  box-shadow: none;
+}
+
+@media (max-width: 1360px) {
+
+	#nav-container {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	#nav-logo {
+		height: 54px;
+	}
+
+}
